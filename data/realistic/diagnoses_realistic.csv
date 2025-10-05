@@ -1,0 +1,101 @@
+patient_id,diagnosis
+1,Pneumonia
+2,Dengue Fever
+3,Migraine
+4,COVID-19
+5,Gastritis
+6,Gastritis
+7,Pneumonia
+8,Dengue Fever
+9,Asthma Attack
+10,Myocardial Infarction
+11,Asthma Attack
+12,Hypertension
+13,Myocardial Infarction
+14,Dengue Fever
+15,Dengue Fever
+16,Gastritis
+17,Migraine
+18,Dengue Fever
+19,Pneumonia
+20,Asthma Attack
+21,Pneumonia
+22,Asthma Attack
+23,Gastritis
+24,Myocardial Infarction
+25,Dengue Fever
+26,Gastritis
+27,COVID-19
+28,Hypertension
+29,Hypertension
+30,Asthma Attack
+31,Dengue Fever
+32,Gastritis
+33,Migraine
+34,Asthma Attack
+35,Dengue Fever
+36,Migraine
+37,Asthma Attack
+38,COVID-19
+39,Hypertension
+40,COVID-19
+41,Myocardial Infarction
+42,Gastritis
+43,Hypertension
+44,Asthma Attack
+45,Asthma Attack
+46,Hypertension
+47,Asthma Attack
+48,Pneumonia
+49,COVID-19
+50,Pneumonia
+51,Pneumonia
+52,COVID-19
+53,Myocardial Infarction
+54,Migraine
+55,COVID-19
+56,Dengue Fever
+57,Dengue Fever
+58,Myocardial Infarction
+59,Gastritis
+60,Migraine
+61,Hypertension
+62,Asthma Attack
+63,Hypertension
+64,Gastritis
+65,Dengue Fever
+66,Gastritis
+67,Migraine
+68,Gastritis
+69,Hypertension
+70,Myocardial Infarction
+71,Pneumonia
+72,Hypertension
+73,COVID-19
+74,Myocardial Infarction
+75,COVID-19
+76,Pneumonia
+77,COVID-19
+78,Migraine
+79,Dengue Fever
+80,Pneumonia
+81,Myocardial Infarction
+82,Gastritis
+83,COVID-19
+84,Pneumonia
+85,Myocardial Infarction
+86,Hypertension
+87,Myocardial Infarction
+88,COVID-19
+89,Dengue Fever
+90,COVID-19
+91,Asthma Attack
+92,Myocardial Infarction
+93,Pneumonia
+94,Dengue Fever
+95,Hypertension
+96,Myocardial Infarction
+97,Pneumonia
+98,Migraine
+99,Asthma Attack
+100,Myocardial Infarction

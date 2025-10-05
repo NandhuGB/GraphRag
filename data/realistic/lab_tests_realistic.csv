@@ -1,0 +1,128 @@
+patient_id,test_name,value,unit
+1,WBC Count,11286.04,cells/µL
+1,CRP,18.43,mg/L
+2,Platelet Count,47220.04,cells/µL
+3,MRI,Normal,
+4,RT-PCR,Positive,
+5,Endoscopy,Gastric inflammation,
+6,Endoscopy,Gastric inflammation,
+7,WBC Count,19218.23,cells/µL
+7,CRP,61.05,mg/L
+8,Platelet Count,79599.12,cells/µL
+9,Peak Flow,172.93,L/min
+10,Troponin,3.98,ng/mL
+10,ECG,ST elevation,
+11,Peak Flow,280.58,L/min
+12,BP,169/97,mmHg
+13,Troponin,3.5,ng/mL
+13,ECG,ST depression,
+14,Platelet Count,37975.79,cells/µL
+15,Platelet Count,88770.83,cells/µL
+16,Endoscopy,Gastric inflammation,
+17,MRI,Normal,
+18,Platelet Count,55450.46,cells/µL
+19,WBC Count,12923.73,cells/µL
+19,CRP,46.09,mg/L
+20,Peak Flow,178.48,L/min
+21,WBC Count,11616.69,cells/µL
+21,CRP,16.12,mg/L
+22,Peak Flow,248.61,L/min
+23,Endoscopy,Gastric inflammation,
+24,Troponin,1.18,ng/mL
+24,ECG,ST elevation,
+25,Platelet Count,94540.48,cells/µL
+26,Endoscopy,Gastric inflammation,
+27,RT-PCR,Positive,
+28,BP,184/91,mmHg
+29,BP,165/111,mmHg
+30,Peak Flow,260.48,L/min
+31,Platelet Count,85326.93,cells/µL
+32,Endoscopy,Gastric inflammation,
+33,MRI,Normal,
+34,Peak Flow,156.66,L/min
+35,Platelet Count,60569.8,cells/µL
+36,MRI,Normal,
+37,Peak Flow,216.27,L/min
+38,RT-PCR,Positive,
+39,BP,186/96,mmHg
+40,RT-PCR,Positive,
+41,Troponin,4.39,ng/mL
+41,ECG,ST elevation,
+42,Endoscopy,Gastric inflammation,
+43,BP,176/103,mmHg
+44,Peak Flow,291.41,L/min
+45,Peak Flow,200.42,L/min
+46,BP,179/95,mmHg
+47,Peak Flow,275.24,L/min
+48,WBC Count,18553.06,cells/µL
+48,CRP,65.92,mg/L
+49,RT-PCR,Positive,
+50,WBC Count,17274.74,cells/µL
+50,CRP,37.14,mg/L
+51,WBC Count,14780.53,cells/µL
+51,CRP,54.12,mg/L
+52,RT-PCR,Positive,
+53,Troponin,4.34,ng/mL
+53,ECG,ST depression,
+54,MRI,Normal,
+55,RT-PCR,Positive,
+56,Platelet Count,44529.84,cells/µL
+57,Platelet Count,42119.97,cells/µL
+58,Troponin,2.95,ng/mL
+58,ECG,ST elevation,
+59,Endoscopy,Gastric inflammation,
+60,MRI,Normal,
+61,BP,185/114,mmHg
+62,Peak Flow,243.83,L/min
+63,BP,178/112,mmHg
+64,Endoscopy,Gastric inflammation,
+65,Platelet Count,24771.04,cells/µL
+66,Endoscopy,Gastric inflammation,
+67,MRI,Normal,
+68,Endoscopy,Gastric inflammation,
+69,BP,155/100,mmHg
+70,Troponin,3.34,ng/mL
+70,ECG,ST elevation,
+71,WBC Count,15362.41,cells/µL
+71,CRP,12.6,mg/L
+72,BP,179/120,mmHg
+73,RT-PCR,Positive,
+74,Troponin,3.18,ng/mL
+74,ECG,ST elevation,
+75,RT-PCR,Positive,
+76,WBC Count,15520.62,cells/µL
+76,CRP,63.12,mg/L
+77,RT-PCR,Positive,
+78,MRI,Normal,
+79,Platelet Count,92273.92,cells/µL
+80,WBC Count,16093.35,cells/µL
+80,CRP,81.33,mg/L
+81,Troponin,1.72,ng/mL
+81,ECG,ST depression,
+82,Endoscopy,Gastric inflammation,
+83,RT-PCR,Positive,
+84,WBC Count,17099.88,cells/µL
+84,CRP,74.88,mg/L
+85,Troponin,4.6,ng/mL
+85,ECG,ST elevation,
+86,BP,168/113,mmHg
+87,Troponin,2.34,ng/mL
+87,ECG,ST elevation,
+88,RT-PCR,Positive,
+89,Platelet Count,23627.74,cells/µL
+90,RT-PCR,Positive,
+91,Peak Flow,216.7,L/min
+92,Troponin,4.78,ng/mL
+92,ECG,ST elevation,
+93,WBC Count,18468.36,cells/µL
+93,CRP,59.88,mg/L
+94,Platelet Count,83881.11,cells/µL
+95,BP,153/94,mmHg
+96,Troponin,0.79,ng/mL
+96,ECG,ST elevation,
+97,WBC Count,13899.01,cells/µL
+97,CRP,23.35,mg/L
+98,MRI,Normal,
+99,Peak Flow,188.23,L/min
+100,Troponin,0.86,ng/mL
+100,ECG,ST elevation,
