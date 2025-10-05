@@ -52,12 +52,12 @@ NEO4J_PASSWORD="your_neo4j_password"
 GENAI_APIKEY="your_google_gemini_api_key"
 ```
 
-### 3\. Install Dependencies
+### 3\. Create conda environment
 
-Install the required Python libraries:
+Conda environment can be created by running following command:
 
 ```bash
-pip install pandas numpy tqdm python-dotenv neomodel neo4j google-genai
+  conda env create -f conda_environment.yml
 ```
 
 ### 4\. Data Ingestion and Indexing

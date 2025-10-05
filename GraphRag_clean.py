@@ -183,44 +183,44 @@ def generate_diagnosis(
         ) if r['lab_tests'] else "N/A"
 
         retrieved_evidence += f"""
-Case Profile:
-- Age: {r.get('age', 'N/A')}, Gender: {r.get('gender', 'N/A')}
-- Symptoms: {', '.join(r['symptoms']) if r['symptoms'] else 'N/A'}
-- Diagnoses: {', '.join(r['diagnoses']) if r['diagnoses'] else 'N/A'}
-- Conditions: {', '.join(r['conditions']) if r['conditions'] else 'N/A'}
-- Risk Factors: {', '.join(r['risk_factors']) if r['risk_factors'] else 'N/A'}
-- Lab Tests: {lab_summary}
-- Clinical Note: {r['clinical_note']}
-"""
+                            Case Profile:
+                            - Age: {r.get('age', 'N/A')}, Gender: {r.get('gender', 'N/A')}
+                            - Symptoms: {', '.join(r['symptoms']) if r['symptoms'] else 'N/A'}
+                            - Diagnoses: {', '.join(r['diagnoses']) if r['diagnoses'] else 'N/A'}
+                            - Conditions: {', '.join(r['conditions']) if r['conditions'] else 'N/A'}
+                            - Risk Factors: {', '.join(r['risk_factors']) if r['risk_factors'] else 'N/A'}
+                            - Lab Tests: {lab_summary}
+                            - Clinical Note: {r['clinical_note']}
+                            """
 
     if is_user:
         prompt = f"""You are a medical reasoning assistant. The following background information contains insights from 
-previous real-world medical cases similar to the patient's situation. 
-Use that information to guide your reasoning, but do not mention it directly.
+                    previous real-world medical cases similar to the patient's situation. 
+                    Use that information to guide your reasoning, but do not mention it directly.
 
-Patient Query: "{query_text}"
+                    Patient Query: "{query_text}"
 
-Background Medical Knowledge:
-{retrieved_evidence}
+                    Background Medical Knowledge:
+                    {retrieved_evidence}
 
-Provide the most probable diagnosis or recommendation for the patient's query, ensuring your answer is medically sound and evidence-informed.
-"""
+                    Provide the most probable diagnosis or recommendation for the patient's query, ensuring your answer is medically sound and evidence-informed.
+                    """
     else:
         prompt = f"""You are a clinical reasoning assistant specialized in interpreting medical knowledge graphs.
-You are provided with structured graph evidence from Neo4j, including symptoms, diagnoses, risk factors, and lab tests.
+                    You are provided with structured graph evidence from Neo4j, including symptoms, diagnoses, risk factors, and lab tests.
 
-User Query:
-{query_text}
+                    User Query:
+                    {query_text}
 
-Retrieved Graph Evidence:
-{retrieved_evidence}
+                    Retrieved Graph Evidence:
+                    {retrieved_evidence}
 
-Instructions:
-1. Analyze the evidence carefully.
-2. Identify diseases consistent with the patient's symptoms, labs, and risk factors.
-3. Provide a diagnosis suggestion with step-by-step reasoning, citing evidence nodes/attributes.
-4. Do not invent evidence; rely only on provided context.
-"""
+                    Instructions:
+                    1. Analyze the evidence carefully.
+                    2. Identify diseases consistent with the patient's symptoms, labs, and risk factors.
+                    3. Provide a diagnosis suggestion with step-by-step reasoning, citing evidence nodes/attributes.
+                    4. Do not invent evidence; rely only on provided context.
+                    """
 
     try:
         response = gemini_client.models.generate_content(
