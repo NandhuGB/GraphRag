@@ -69,7 +69,7 @@ Run the ingestion script (which uses `neomodel` and the `get_gemini_embedding` f
 1.  **Run Ingestion (First part of the provided solution):**
 
     ```bash
-    python ingestion_script.py
+    python Knowledge_graph_clean.py
     ```
 
     This script performs the following:
@@ -108,7 +108,7 @@ The schema is designed to connect multiple contributing factors to a central `Pa
 
 ## 🧪 GraphRAG Pipeline Execution
 
-The `main_rag_pipeline.py` script implements the full RAG workflow.
+The `Graphrag_clean.py` script implements the full RAG workflow.
 
 ### 1\. Embedding Generation
 
@@ -143,7 +143,7 @@ The LLM is prompted to act as a **medical reasoning assistant** to generate a pr
 Run the main script for interactive testing:
 
 ```bash
-python main_rag_pipeline.py
+python Graphrag_clean.py
 ```
 
 The script will first demonstrate the diagnosis generation for a sample query (`"I am 27 years old, I am having chest pain and shortness of breath"`) in both debug (evidence-cited) and user (evidence-hidden) modes. It then enters an interactive loop.
